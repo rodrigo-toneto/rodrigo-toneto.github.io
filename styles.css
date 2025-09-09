@@ -21,7 +21,7 @@ body{
   position:relative;
   min-height: 220px;
   /* FIX: .webp (not .wepb). If your file is JPG/PNG, change the extension here. */
-  background: url('header.webp') center/cover no-repeat;
+  background: url('header.jpg') center/cover no-repeat;
   border-bottom:1px solid var(--line);
 }
 .hero.small{ min-height: 160px; }
