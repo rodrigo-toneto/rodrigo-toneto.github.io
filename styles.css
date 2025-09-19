@@ -27,7 +27,7 @@ body{
 .hero::after{
   content:"";
   position:absolute; inset:0;
-  background: linear-gradient(180deg, rgba(255,255,255,.65), rgba(255,255,255,.45));
+  background: linear-gradient(180deg, rgba(255,255,255,.3), rgba(255,255,255,.2));
 }
 .hero-overlay{
   position:relative; z-index:1;
@@ -128,5 +128,9 @@ body{
   .nav{ position: fixed; top:12px; right:12px; }
   .sidebar{ grid-template-columns: 1fr; }
   .avatar{ max-width:240px; margin: 0 auto; }
+  .hero-overlay{
+    padding-top: 80px; /* increase top padding so name drops down */
+  }
 }
+
 
